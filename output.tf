@@ -4,6 +4,6 @@ output "instance_id" {
 }
 output "instance_public_ip" {
     description = "Public IP Address of EC2 Instance"
-    value = aws_instance.app_public_ip
+    value = aws_instance.app_server.public_ip
 }
 # random comment
